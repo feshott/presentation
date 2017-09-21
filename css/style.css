@@ -1,0 +1,1260 @@
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamProReg.otf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/3-background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+main {
+  overflow: hidden;
+}
+
+.slide-one {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  background-image: url(../image/1-background.jpg);
+  background-position: bottom;
+  background-size: 101%;
+  background-repeat: no-repeat;
+}
+
+.slide-one h1 {
+  position: absolute;
+  top: 149px;
+  left: 75px;
+  font-family: GothamPro;
+  color: #0d319c;
+  width: 70%;
+  font-size: 44.96px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+}
+
+.point-one {
+  position: absolute;
+  top: 259px;
+  left: 564px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+
+.point-one:after {
+  position: absolute;
+  top: 10px;
+  left: 63px;
+  width: 250px;
+  content: 'Цель по HbA1c';
+  font-family: Lato;
+  color: #0d319c;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.point-two {
+  position: absolute;
+  top: 419px;
+  left: 272px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+
+.point-two:after {
+  position: absolute;
+  top: -40px;
+  left: -75px;
+  width: 180px;
+  content: 'Гипогликемия';
+  font-family: Lato;
+  color: #0d319c;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.point-three {
+  position: absolute;
+  top: 531px;
+  left: 475px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+ 
+}
+
+.point-three:after {
+  position: absolute;
+  top: -1px;
+  left: 36px;
+  width: 215px;
+  content: 'Осложнения СД';
+  font-family: Lato;
+  color: #0d319c;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.point-four {
+  position: absolute;
+  top: 518px;
+  right: 182px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+
+.point-four:after {
+  position: absolute;
+  top: -1px;
+  left: 36px;
+  width: 250px;
+  content: 'CC риски';
+  font-family: Lato;
+  color: #0d319c;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.point-down {
+  position: absolute;
+  width: 900px;
+  background-image: url(../image/light.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -7px;
+  background-position-x: -29px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.point-down img {
+  width: 50px;
+  height: 25px;
+}
+
+.point-down p {
+  width: 100%;
+  color: white;
+  font-family: GothamPro;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 7px;
+  text-align: center;
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.slide-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  background-image: url(../image/2-background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ice-img-block {
+  position: absolute;
+  background-image: url(../image/ice-two-slide.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 1024px;
+  height: 768px;
+}
+
+.slide-two-title {
+  font-family: GothamPro;
+  margin: 0;
+  font-size: 55px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.slide-three-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  background-color: transparent;
+}
+
+.slide-three-one-title {
+  position: absolute;
+  top: -130px;
+  left: -238px;
+  font-family: GothamPro;
+  color: white;
+  font-weight: 400;
+  font-size: 34px;
+  margin: 0;
+}
+
+.arrow-block-one {
+  position: relative;
+  left: 60px;
+  background-image: url(../image/arrow-one.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 584px;
+  height: 423px;
+}
+
+.three-point {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+.three-point img {
+  width: 58px;
+  height: 58px;
+}
+
+.three-point-1 {
+  top: 16px;
+  left: -30px;
+}
+
+.three-point-1 img {
+  width: 57px;
+  height: 76px;
+}
+
+.three-point-1:before {
+  position: absolute;
+  top: -9px;
+  left: -31px;
+  content: '8';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-1:after {
+  position: absolute;
+  top: 34px;
+  left: -133px;
+  content: 'Микрофлора кишечника';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  width: 125px;
+  line-height: 1.33;
+}
+
+.three-point-2 {
+  top: 136px;
+  left: -30px;
+}
+
+.three-point-2 img {
+  width: 62px;
+  height: 62px;
+}
+
+.three-point-2:before {
+  position: absolute;
+  top: -9px;
+  left: -31px;
+  content: '9';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-2:after {
+  position: absolute;
+  top: 37px;
+  left: -229px;
+  content: 'Нарушение имунной регуляции/воспаление';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  width: 220px;
+  line-height: 1.33;
+}
+
+.three-point-3 {
+  top: 317px;
+  left: -30px;
+}
+
+.three-point-3 img {}
+
+.three-point-3:before {
+  position: absolute;
+  top: -9px;
+  left: -55px;
+  content: '10';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-3:after {
+  position: absolute;
+  top: 36px;
+  left: -94px;
+  content: 'Желудок';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  width: 88px;
+  line-height: 1.33;
+}
+
+.three-point-4 {
+  bottom: -80px;
+  left: 245px;
+}
+
+.three-point-4 img {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 59px;
+  height: 60px;
+}
+
+.three-point-4:before {
+  position: absolute;
+  top: 0px;
+  left: -59px;
+  content: '11';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-4:after {
+  position: absolute;
+  top: 45px;
+  left: -98px;
+  content: 'Почки';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  width: 88px;
+  line-height: 1.33;
+}
+
+.three-point-5 {
+  top: 16px;
+  right: 45px;
+}
+
+.three-point-5 img {}
+
+.three-point-5:before {
+  position: absolute;
+  top: 0px;
+  right: -34px;
+  content: '7';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-5:after {
+  position: absolute;
+  top: 45px;
+  right: -152px;
+  content: 'Головной мозг';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  width: 143px;
+  line-height: 1.33;
+}
+
+.three-tabel {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: -110px;
+  top: 145px;
+  background-image: url(../image/three-slide-table.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 241px;
+  height: 214px;
+}
+
+.three-point-6 {
+  top: 50px;
+  left: 13px;
+}
+
+.three-point-6 img {
+  position: absolute;
+  top: 18px;
+  width: 56px;
+  height: 58px;
+}
+
+.three-point-6:before {
+  position: absolute;
+  top: 0px;
+  right: -34px;
+  content: '6';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-6:after {
+  position: absolute;
+  top: 45px;
+  right: -133px;
+  content: 'Печень';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  width: 122px;
+  line-height: 1.33;
+}
+
+.three-point-7 {
+  top: 150px;
+  left: 13px;
+}
+
+.three-point-7 img {
+  width: 63px;
+  height: 50px;
+}
+
+.three-point-7:before {
+  position: absolute;
+  top: 0px;
+  right: -34px;
+  content: '5';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-7:after {
+  position: absolute;
+  top: 45px;
+  right: -133px;
+  content: 'Мышцы';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  width: 122px;
+  line-height: 1.33;
+}
+
+.three-point-8 {
+  top: 250px;
+  left: 13px;
+}
+
+.three-point-8 img {}
+
+.three-point-8:before {
+  position: absolute;
+  top: 0px;
+  right: -34px;
+  content: '4';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-8:after {
+  position: absolute;
+  top: 49px;
+  right: -172px;
+  content: 'Жировые клетки';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  width: 165px;
+  line-height: 1.33;
+}
+
+.three-point-9 {
+  top: -31px;
+  left: 207px;
+  width: 100px;
+  height: 100px;
+}
+
+.three-point-9 img {
+  width: 42px;
+  height: 69px;
+}
+
+.three-point-9:before {
+  position: absolute;
+  top: -45px;
+  left: -23px;
+  content: '1';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-9:after {
+  position: absolute;
+  top: -31px;
+  left: 10px;
+  content: 'β-клетки';
+  font-family: Lato;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  width: 122px;
+}
+
+.three-tabel-title {
+  position: absolute;
+  top: 20px;
+  font-family: Lato;
+  color: white;
+  font-size: 16px;
+}
+
+.three-span-one {
+  display: block;
+  position: absolute;
+  bottom: 59px;
+  left: 153px;
+  color: white;
+  font-size: 30px;
+  font-family: Lato;
+}
+
+.three-span-two {
+  display: block;
+  position: absolute;
+  bottom: 141px;
+  left: 278px;
+  color: white;
+  font-size: 20px;
+  font-family: Lato;
+}
+
+.three-span-three {
+  display: block;
+  position: absolute;
+  bottom: 156px;
+  left: -42px;
+  color: white;
+  font-size: 20px;
+  font-family: Lato;
+}
+
+.three-span-four {
+  display: block;
+  position: absolute;
+  bottom: 168px;
+  left: 75px;
+  color: white;
+  text-align: right;
+  font-size: 22px;
+  font-family: Lato;
+}
+
+.three-span-four:before {
+  position: absolute;
+  top: -42px;
+  right: 0px;
+  content: '2';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-span-five {
+  display: block;
+  position: absolute;
+  bottom: 193px;
+  left: 277px;
+  color: white;
+  text-align: right;
+  font-size: 22px;
+  font-family: Lato;
+}
+
+.three-span-five:before {
+  position: absolute;
+  top: -43px;
+  right: 155px;
+  content: '3';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.ice-three-one {
+  background-image: url(../image/ice-three-one-slide.png);
+}
+
+.slide-three-two-title {
+  position: absolute;
+  top: 43px;
+  left: 39px;
+  font-family: GothamPro;
+  color: white;
+  font-weight: 400;
+  font-size: 34px;
+  margin: 0;
+}
+
+.arrow-block-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(../image/arrow-block-two.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 544px;
+  height: 288px;
+}
+
+.three-point-10 {
+  top: -53px;
+  left: 51px;
+}
+
+.three-point-10:after {
+  position: absolute;
+  top: 14px;
+  right: 87px;
+  content: 'Инкретиновый эффект';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  width: 142px;
+  line-height: 1.33;
+}
+
+.three-point-10:before {
+  position: absolute;
+  top: 10px;
+  right: 26px;
+  content: '2';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-11 {
+  top: -53px;
+  left: 237px;
+}
+
+.three-point-11 img {
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  top: 7px;
+}
+
+.three-point-11:after {
+  position: absolute;
+  top: -27px;
+  right: -24px;
+  content: 'β-клетки';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  width: 122px;
+  line-height: 1.33;
+}
+
+.three-point-11:before {
+  position: absolute;
+  top: -69px;
+  right: 26px;
+  content: '1';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-12 {
+  top: -53px;
+  right: 53px;
+}
+
+.three-point-12:after {
+  position: absolute;
+  top: 14px;
+  right: -97px;
+  content: 'Дефект α-клеток';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  width: 86px;
+  line-height: 1.33;
+}
+
+.three-point-12:before {
+  position: absolute;
+  top: 10px;
+  right: 26px;
+  content: '3';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-13 {
+  top: 117px;
+  right: -75px;
+}
+
+.three-point-13 img {}
+
+.three-point-13:after {
+  position: absolute;
+  top: 58px;
+  right: -138px;
+  content: 'Жировые клетки';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  width: 122px;
+  line-height: 1.33;
+}
+
+.three-point-13:before {
+  position: absolute;
+  top: 9px;
+  right: -40px;
+  content: '4';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-14 {
+  top: 267px;
+  right: 51px;
+}
+
+.three-point-14 img {
+  width: 63px;
+  height: 50px;
+}
+
+.three-point-14:after {
+  position: absolute;
+  top: 121px;
+  right: -26px;
+  content: 'Мышцы';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  width: 122px;
+  line-height: 1.33;
+}
+
+.three-point-14:before {
+  position: absolute;
+  top: 78px;
+  right: 25px;
+  content: '5';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-15 {
+  top: 267px;
+  right: 233px;
+}
+
+.three-point-15 img {
+  position: absolute;
+  top: 11px;
+  width: 56px;
+  height: 58px;
+}
+
+.three-point-15:after {
+  position: absolute;
+  top: 121px;
+  right: -26px;
+  content: 'Печень';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  width: 122px;
+  line-height: 1.33;
+}
+
+.three-point-15:before {
+  position: absolute;
+  top: 78px;
+  right: 25px;
+  content: '6';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-16 {
+  top: 267px;
+  left: 52px;
+}
+
+.three-point-16 img {}
+
+.three-point-16:after {
+  position: absolute;
+  top: 121px;
+  right: -19px;
+  content: 'Головной мозг';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  width: 114px;
+  line-height: 1.33;
+}
+
+.three-point-16:before {
+  position: absolute;
+  top: 78px;
+  right: 25px;
+  content: '7';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-17 {
+  top: 117px;
+  left: -75px;
+}
+
+.three-point-17 img {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 59px;
+  height: 60px;
+}
+
+.three-point-17:after {
+  position: absolute;
+  top: 59px;
+  right: 54px;
+  content: 'Почки';
+  font-family: Lato;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  width: 114px;
+  line-height: 1.33;
+}
+
+.three-point-17:before {
+  position: absolute;
+  top: 10px;
+  right: 84px;
+  content: '8';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.arrow-block-two-title {
+  font-family: Lato;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.ice-three-two {
+  background-image: url(../image/ice-three-two-slide.png);
+}
+
+.arrow-block-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(../image/arrow-block-three.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 477px;
+  height: 197px;
+}
+
+.slide-three-three-title {
+  position: absolute;
+  top: 57px;
+  left: 104px;
+  font-family: Lato;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+}
+
+.three-point-18 {
+  top: -66px;
+  left: 190px;
+  width: 100px;
+  height: 100px;
+}
+
+.three-point-18 img {
+  width: 40px;
+  height: 73px;
+}
+
+.three-point-18:before {
+  position: absolute;
+  top: -81px;
+  left: 36px;
+  content: '1';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-18:after {
+  position: absolute;
+  top: -31px;
+  left: -2px;
+  content: 'β-клетки';
+  font-family: Lato;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  width: 106px;
+}
+
+.three-point-19 {
+  bottom: -37px;
+  left: -101px;
+  width: 100px;
+  height: 100px;
+}
+
+.three-point-19 img {
+  width: 78px;
+  height: 58px;
+}
+
+.three-point-19:before {
+  position: absolute;
+  top: -81px;
+  left: 36px;
+  content: '2';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-19:after {
+  position: absolute;
+  top: -31px;
+  left: 5px;
+  content: 'Мышцы';
+  font-family: Lato;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.three-point-20 {
+  bottom: -37px;
+  right: -100px;
+  width: 100px;
+  height: 100px;
+}
+
+.three-point-20 img {
+  width: 65px;
+  height: 65px;
+}
+
+.three-point-20:before {
+  position: absolute;
+  top: -81px;
+  left: 36px;
+  content: '3';
+  font-family: Lato;
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.three-point-20:after {
+  position: absolute;
+  top: -31px;
+  left: 11px;
+  content: 'Печень';
+  font-family: Lato;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  width: 81px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 35px 55px;
+  font-family: Lato;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.ice-three-three {
+  background-image: url(../image/ice-three-three-slide.png);
+}
+
+
+/*plagin*/
+
+
+/*range*/
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 700px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 700px;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #d1eaff;
+  border-radius: 1.3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 50px;
+  width: 38px;
+  background-image: url(../image/slider.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #d1eaff;
+  ;
+}
+
+input[type=range] {
+  position: absolute;
+  z-index: 100;
+  bottom: 40px;
+}
+
+
+/*------*/
+
+
+/*point*/
+
+
+
+.ringbase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  opacity: 0.0 z-index: 10;
+}
+.ringbase2 {
+ 
+  width: 50px;
+  height: 50px;
+  
+}
+.ringbase3 {
+  width: 25px;
+  height: 25px;
+}
+
+.ring1 {
+  box-shadow: 0 0 1px 1px #C61F48, inset 0 0 1px 1px #C61F48;
+  -webkit-animation: ring 2s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.ring2 {
+  box-shadow: 0 0 1px 1px #C61F48, inset 0 0 1px 1px #C61F48;
+  -webkit-animation: ring 2s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.6s;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: scale(0.4, 0.4);
+    opacity: 1;
+    background-color: rgba(247, 139, 31, 0.8);
+    box-shadow: rgba(206, 15, 51, 0.0)
+  }
+  50% {
+    opacity: 1;
+    background-color: rgba(247, 139, 31, 0.3);
+    box-shadow: rgba(206, 15, 51, 0)
+  }
+  100% {
+    -webkit-transform: scale(1.1, 1.1);
+    opacity: 1;
+    background-color: rgba(247, 139, 31, 0.1);
+    box-shadow: rgba(206, 15, 51, 1)
+  }
+}
+
+/*------*/
